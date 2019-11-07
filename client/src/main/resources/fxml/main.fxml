@@ -23,6 +23,7 @@
                         <Button fx:id="btnMoveToRight" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="--&gt;" />
                         <Button fx:id="btnMoveToLeft" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="&lt;--" />
                         <Button fx:id="btnDelete" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Удалить" />
+                        <Button fx:id="btnRefresh" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Обновить" />
                     </children>
                     <HBox.margin>
                         <Insets left="10.0" right="10.0" />

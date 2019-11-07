@@ -28,7 +28,7 @@ public class FilesListViewCell extends ListCell<FileInfo> {
             setGraphic(null);
         } else {
             if (fxmlLoader == null) {
-                fxmlLoader = new FXMLLoader(getClass().getResource("/files_list_cell.fxml"));
+                fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/files_list_cell.fxml"));
                 fxmlLoader.setController(this);
 
                 try {
